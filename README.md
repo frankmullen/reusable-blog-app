@@ -1,0 +1,1 @@
+# Reusable Django Blog app
