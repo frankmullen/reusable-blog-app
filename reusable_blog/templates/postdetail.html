@@ -17,7 +17,7 @@
                     {% endif %}
                     <p>{{ post.content|linebreaks }}</p>
                     <button class="btn btn-default" onclick="location.href='/blog'">Back To Blog</button>
-                    <button class="btn btn-default" onclick="location.href='edit'">Edit</button>
+                    <!--<button class="btn btn-default" onclick="location.href='edit'">Edit</button>-->
                     <p>{{ post.published_date }} | Views {{ post.views }}</p>
                     {% load disqus_tags %}
                     {% set_disqus_title post.title %}
